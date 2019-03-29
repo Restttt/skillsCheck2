@@ -12,6 +12,7 @@ class EditItem extends Component {
         this.changeEdit = this.changeEdit.bind(this);
     };
 
+
     updateText = (e) => {
         const { name, value } = e.target;
         this.setState({ [name]: value });
