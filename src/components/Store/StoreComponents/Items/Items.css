@@ -1,0 +1,111 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+
+
+ul {
+    list-style: none;
+}
+
+.product-box {
+    margin: 2vh;
+    margin-left: 7%;
+    max-width: 35vw;
+
+    display: grid;
+    grid-template-columns: 20vw 7vw 7vw;
+    grid-template-rows: 15vh 10vh 3vh minmax(3vh, auto);
+
+    background: rgba(171, 42, 25, 0.788);
+
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #AB2A19;
+}
+
+div.product-box:hover {
+    background: #AB2A19;
+}
+
+.product-image-box {
+    grid-row: 1 / span 3;
+    grid-column: 1;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.product-info {
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 600;
+    margin-left: -15px;
+}
+
+.product-name {
+    font-size: 3vh;
+}
+
+.product-price {
+    font-size: 2.4vh;
+}
+
+.edit-fields {
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.edit-fields-active {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product-delete {
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.item-loading-page-box {
+    width: 56%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-page {
+    width: 100%;
+    height: 15vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: rgba(211, 69, 53, 0.39);
+
+    font-size: 3vh;
+    color: white;
+}
+
+input {
+    max-height: 1.5vh;
+}
+
+button {
+    max-height: 2.4vh;
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: #681a0f;
+
+    margin: 2px;
+}

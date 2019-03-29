@@ -1,0 +1,49 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+
+.header-box {
+    width: 100%;
+    height: 7vh;
+
+    background: #AB2A19;
+    color: white;
+
+    font-family: "Open Sans";
+    position: fixed;
+}
+
+header {
+    display: flex;
+}
+
+.logo-brand-name {
+    width: 9vw;
+    height: 7vh;
+    margin-left: 4vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.website-routing-menu-box {
+    position: relative;
+    float: right;
+    margin-right: 4vw;
+}
+
+.header-white-space {
+    width: 50vw;
+}
+
+.website-routing-menu {
+    width: 30vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
