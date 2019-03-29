@@ -6,7 +6,7 @@ class DeleteItem extends Component {
     componentDidUpdate() {
         setTimeout(() => {
             alert("Wow we updated the state!");
-        }, 1000);
+        }, 1050);
     }
 
     render() {
